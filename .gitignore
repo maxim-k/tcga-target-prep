@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Data -- immutable source of truth and derived artifacts, both too large
+# and too easily regenerated/redownloaded to belong in git.
+downloads/
+processed/
+.ipynb_checkpoints/
+*.h5ad
+
+# Large GDC download-run artifacts, regenerable from the manifest.
+metadata.repository.*.json
+gdc_download.log
+gdc_download.out
+
+.DS_Store
