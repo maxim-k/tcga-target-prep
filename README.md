@@ -15,7 +15,7 @@ not a substitute for the notebook.
    `downloads/` (fixed, read-only from here on). Barcodes decoded against
    `tcga_code_tables/`; per-file `annotations.txt` QC notes aggregated.
    -> `processed/metadata/sample_metadata.parquet`
-2. **Technical QC ("Death Note").** Every QC-flagged file (failed
+2. **Technical QC.** Every QC-flagged file (failed
    center QC, DNU, low quality, FFPE preservation, cell lines,
    adjacent-normal, tumor/normal mislabeling) dropped as a hard filter.
    1,543 killed, 14,336 survive.

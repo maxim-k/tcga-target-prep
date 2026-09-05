@@ -2,7 +2,7 @@
 
 - `data`: raw GDC acquisition -- manifest, sample sheet, `gdc-client` download run
 - `metadata`: barcode decoding and QC-annotation aggregation into the sample metadata table
-- `qc`: technical QC filtering (the "Death Note") and candidate-drop classification
+- `qc`: technical QC filtering and candidate-drop classification
 - `expression`: master raw-counts/TPM expression matrix build
 - `semantic-qc`: exploratory clustering / batch-effect analysis branch
 - `aracne`: ARACNe/VIPER input base matrix (protein-coding filter, CPM, OncoTree tagging)
