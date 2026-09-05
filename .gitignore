@@ -16,8 +16,7 @@ processed/
 .ipynb_checkpoints/
 *.h5ad
 
-# Large GDC download-run artifacts, regenerable from the manifest.
-metadata.repository.*.json
+# Large GDC download-run logs (not read by anything, just run history).
 gdc_download.log
 gdc_download.out
 
